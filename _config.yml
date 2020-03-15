@@ -1,6 +1,6 @@
 title: Fabien Culpo
 tagline: Cloud Architect - DevOps
-description: My personal home page and resume
+description: Cloud Architect - DevOps
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fabien.culpo.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -20,3 +20,7 @@ google_site_verification: LWLcaTw_1TtT5QgF8F4DuEQiNFsV2sLjovpXyR1XcG8
 
 theme_skin: gray # gray blue turquoise green berry red
 remote_theme: fculpo/jekyll-pillar
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
