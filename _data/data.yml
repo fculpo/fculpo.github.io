@@ -1,0 +1,225 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+header:
+  # Profile information
+  name: Fabien Culpo
+  tagline: DevOps - Cloud Solutions Architect
+  avatar:  profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  email: fabien@culpo.fr
+  phone: +33 6 61 18 46 71
+  website: https://fabien.culpo.fr
+  linkedin: fabienculpo
+  github: fculpo
+  gitlab:
+  bitbucket:
+  twitter: "@fculpo"
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+
+languages:
+  - idiom: English
+    level: Professional
+  - idiom: French
+    level: Native
+
+interests:
+  - name: Cinema
+    link:
+  - name: Music / DJing
+    link:
+  - name: World Domination
+
+summary: |
+  Passionate about automation of on-premises or cloud infrastructures, I am looking forward to new DevOps challenges.
+
+  I particularly enjoy public cloud architecture design, and distributed computing (containers, microservices, kubernetes).
+
+education:
+  - degree: Engineering degree - IT
+    university: INSA Lyon - France
+    time: 2007 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - degree: Computer and Network Security
+    university: Chalmers - Goteborg, Sweden
+    time: 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+
+experiences:
+  - role: Cloud Solutions Architect
+    time: 2019-09 - Present
+    company: Gfi, Lyon
+    details: |
+      AWS Solutions Architect inside the Cloud Fabric business unit.
+      - Design and implementation of cloud landing zones and workloads.
+      - Migration of existing customers on-premise infrastructures / applications to public cloud providers (mainly AWS / Azure).
+    technologies:
+      - Python
+      - Ansible
+      - Terraform
+      - AWS
+      - CloudEndure
+      - Azure DevOps
+
+  - role: Lead DevOps Engineer
+    time: 2018-01 - 2019-09
+    company: OVHcloud
+    details: |
+      As technical leader (4 people international team) of WorkspaceONE SaaS offer in partnership with VMware, we built and maintained a state of the art and opensource automation platform.
+      This platform allows to provision, configure and maintain a full software stack on hundreds of virtual machines, on multiple backends (Private / Public Cloud)
+        - Managed Kubernetes cluster hosting (mostly) Ansible / AWX (Tower) cluster and an Ansible inventory microservice (REST API via Python Eve)
+        - Data backed by OVH Database as a Service (MongoDB and PostgreSQL)
+        - Traefik cluster maintains SSL endpoints automagically
+        - All logs and metrics are collected and routed to respectively Graylog and Grafana, via Fluentd and Prometheus
+        - All Kubernetes containers are built, tested and deployed via a CI/CD stack (CDS)
+    technologies:
+      - Ansible / Tower
+      - VMware vSphere
+      - VMware WorkspaceONE
+      - Python
+      - MongoDB
+      - Grafana
+      - Prometheus
+      - Kubernetes
+      - CI/CD
+
+  - role: Citrix Team Lead
+    time: SEPT. 2016 - DEC. 2017
+    company: EDF SA, Lyon/Marseille - France
+    details: |
+      Head of a 7 people team, responsible for architecture and delivery of virtualization solutions (XenApp/XenDesktop),
+      for the whole French national energy provider company.
+
+      Our work allowed drastic savings during Windows 10 migration, by leveraging application publishing for old,
+      unsupported, but critical internal software.
+    technologies:
+      - Citrix XenApp
+      - Citrix XenDesktop
+      - Windows Server
+      - Windows Desktop
+
+  - role: End-User Computing Consultant
+    time: SEPT. 2012 - AUG. 2016
+    company: LANexpert (Swisscom), Geneva - Switzerland
+    details: |
+      As a consultant, I specialized in End-User Computing and helped multiple customers to design
+      and deploy such solutions.
+
+      - Customer advice on their internal IT strategy
+      - Design and delivery of technical solutions for end-user workspaces needs.
+      - Virtual Desktop Infrastructure and Virtual Applications delivery
+      - Enterprise Mobility and Unified Endpoint Management solutions
+      - Administration and automation of Windows / Linux server farms
+    technologies:
+      - Citrix XenApp
+      - Citrix XenDesktop
+      - VMware Horizon View
+      - Citrix XenMobile
+      - VMware AirWatch
+      - VMware WorkspaceONE
+      - Active Directory
+      - Puppet
+
+awards:
+  - name: AWS Solutions Architect - Associate
+    description: JAN. 2020
+  - name: CNCF Certified Kubernetes Administrator
+    description: MAR. 2020
+
+# Projects are not used in this template for now
+projects:
+  title: Projects
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# Publications are not used in this template for now
+publications:
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: The Art of Computer Programming
+      link: "#"
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
+
+    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      link: "#"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+    - title: A syntax directed compiler for Algol 60
+      link: "#"
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+  - category: DevOps
+    tools:
+      - name: Ansible
+        level: 100%
+      - name: Puppet
+        level: 80%
+      - name: Terraform
+        level: 80%
+      - name: CI/CD
+        level: 80%
+  - category: Microservices
+    tools:
+      - name: Kubernetes
+        level: 90%
+      - name: Docker
+        level: 95%
+  - category: End User Computing
+    tools:
+      - name: VMware WorkspaceONE
+        level: 95%
+      - name: Citrix XenApp/XenDesktop
+        level: 80%
+  - category: others
+    tools:
+      - Git
+      - GitOps
+      - GitLab
+      - Azure DevOps
+      - CloudEndure
