@@ -6,7 +6,7 @@ header:
   # Profile information
   name: Fabien Culpo
   tagline: DevOps - Cloud Solutions Architect
-  avatar:  profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
   email: fabien@culpo.fr
   phone: +33 6 61 18 46 71
   website: https://fabien.culpo.fr
@@ -62,8 +62,19 @@ education:
         - Bullet point
 
 experiences:
+  - role: Senior Infrastructure Engineer
+    time: 2020-04 - Present
+    company: Dawex, Lyon
+    details:
+    technologies:
+      - Kubernetes
+      - EKS
+      - AKS
+      - Terraform
+      - Chef
+      - jsonnet
   - role: Cloud Solutions Architect
-    time: 2019-09 - Present
+    time: 2019-09 - 2020-03
     company: Gfi, Lyon
     details: |
       AWS Solutions Architect inside the Cloud Fabric business unit.
