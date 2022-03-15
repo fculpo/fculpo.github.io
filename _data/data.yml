@@ -21,7 +21,7 @@ header:
 
 languages:
   - idiom: English
-    level: Professional
+    level: Fluent
   - idiom: French
     level: Native
 
@@ -30,10 +30,9 @@ interests:
     link:
   - name: Music / DJing
     link:
-  - name: World Domination
 
 summary: |
-  Passionate about automation of on-premises or cloud infrastructures, I am looking forward to new DevOps challenges.
+  Passionate about automation of on-premises or cloud infrastructures, I am looking forward to new DevOps/SRE challenges.
 
   I particularly enjoy public cloud architecture design, and distributed computing (containers, microservices, kubernetes).
 
@@ -62,17 +61,24 @@ education:
         - Bullet point
 
 experiences:
-  - role: Senior Infrastructure Engineer
+  - role: Senior Infrastructure Engineer - Security Specialist
     time: 2020-04 - Present
     company: Dawex, Lyon
-    details:
+    details: |
+      As Senior Infrastructure Engineer, I provision, configure, and destroy evolving infrastructures, used to host Dawex technology.
+      We primarily use container based architectures, deployed onto multiple public managed Kubernetes offerings (AWS, Azure, Orange, GCP).
+
+      Infrastructure as Code, Kubernetes CI/CD, and monitoring stacks are the main ones which I'm responsible for as of today.
+
+      As Security Specialist, I need to ensure and enforce high security standards, both for our product and the company itself,
+      allowing me to work with all the teams, in order to build a state of the art platform.
     technologies:
       - Kubernetes
       - EKS
       - AKS
       - Terraform
-      - Chef
-      - jsonnet
+      - Ansible
+      - Jsonnet / Helm
   - role: Cloud Solutions Architect
     time: 2019-09 - 2020-03
     company: Gfi, Lyon
@@ -90,7 +96,7 @@ experiences:
 
   - role: Lead DevOps Engineer
     time: 2018-01 - 2019-09
-    company: OVHcloud
+    company: OVHcloud, Lyon
     details: |
       As technical leader (4 people international team) of WorkspaceONE SaaS offer in partnership with VMware, we built and maintained a state of the art and opensource automation platform.
       This platform allows to provision, configure and maintain a full software stack on hundreds of virtual machines, on multiple backends (Private / Public Cloud)
@@ -112,7 +118,7 @@ experiences:
 
   - role: Citrix Team Lead
     time: SEPT. 2016 - DEC. 2017
-    company: EDF SA, Lyon/Marseille - France
+    company: EDF SA, Lyon/Marseille
     details: |
       Head of a 7 people team, responsible for architecture and delivery of virtualization solutions (XenApp/XenDesktop),
       for the whole French national energy provider company.
@@ -227,10 +233,3 @@ skills:
         level: 95%
       - name: Citrix XenApp/XenDesktop
         level: 80%
-  - category: others
-    tools:
-      - Git
-      - GitOps
-      - GitLab
-      - Azure DevOps
-      - CloudEndure
